@@ -1,0 +1,27 @@
+{
+  "name": "diceglobal-agrotrace-ai",
+  "version": "1.0.0",
+  "description": "AgroTrace AI Agent — an autonomous blockchain-based system for traceability and verification of agricultural products on the Somnia Network.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network somnia",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "blockchain",
+    "somnia",
+    "agriculture",
+    "traceability",
+    "hardhat",
+    "solidity",
+    "ai-agent"
+  ],
+  "author": "Abubakar Jibrin Gunda (Dice Global Resources Nig Ltd)",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  }
+}
